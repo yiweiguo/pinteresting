@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.4'
+ruby '2.3.0'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass'
-
+gem 'devise', '~> 4.2.0'
 
 
 group :development, :test do
