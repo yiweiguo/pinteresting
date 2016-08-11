@@ -17,7 +17,7 @@ class PinsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create pin" do
     assert_difference('Pin.count') do
-      post pins_url, params: { pin: {  } }
+      post pins_url, params: { pin: { description: @pin.description } }
     end
 
     assert_redirected_to pin_url(Pin.last)
@@ -34,7 +34,7 @@ class PinsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update pin" do
-    patch pin_url(@pin), params: { pin: {  } }
+    patch pin_url(@pin), params: { pin: { description: @pin.description } }
     assert_redirected_to pin_url(@pin)
   end
 
