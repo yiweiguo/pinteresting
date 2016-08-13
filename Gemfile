@@ -31,8 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.2.0'
-gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'aws-sdk', '< 2.0'
+gem 'paperclip', github: 'thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
+gem 'aws-sdk', '>= 2.0.0'
 
 group :development, :test do
 	gem 'sqlite3'
