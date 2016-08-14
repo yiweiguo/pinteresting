@@ -12,6 +12,6 @@
  *
  
  *= require_self
- *= require 'masonry/gutters'
+ *= require 'masonry/basic'
  *= require_tree .
  */
